@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>finance1</id>
+    <version>1.0.0</version>
+    <authors>finance1</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0">
+        <dependency id="MySql.Data" version="8.3.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net8.0-windows7.0/Screenshot 2024-04-30 093814.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\nator\Downloads\Hello World\finance1\finance1\bin\Debug\net8.0-windows\finance1.runtimeconfig.json" target="lib\net8.0-windows7.0\finance1.runtimeconfig.json" />
+    <file src="C:\Users\nator\Downloads\Hello World\finance1\finance1\bin\Debug\net8.0-windows\finance1.dll" target="lib\net8.0-windows7.0\finance1.dll" />
+    <file src="C:\Users\nator\Downloads\Hello World\finance1\finance1\Screenshot 2024-04-30 093814.ico" target="content\Screenshot 2024-04-30 093814.ico" />
+    <file src="C:\Users\nator\Downloads\Hello World\finance1\finance1\Screenshot 2024-04-30 093814.ico" target="contentFiles\any\net8.0-windows7.0\Screenshot 2024-04-30 093814.ico" />
+  </files>
+</package>
